@@ -1,0 +1,17 @@
+.Vertical-tabs {
+  height: 100%;
+}
+
+.Vertical-tabs li {
+  padding: 10px;
+  text-align: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  cursor: pointer;
+  color: #888;
+}
+
+.Vertical-tabs li.active {
+  background-color: #4c4c4c;
+  color: #e58929;
+}
