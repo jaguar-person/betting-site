@@ -27,7 +27,7 @@ export default function Dashboard() {
         </div>
       </div>
       <div className="w-1/3 hidden lg:block">
-        <Players customHeight="85vh" />
+        <Players />
       </div>
     </div>
   );

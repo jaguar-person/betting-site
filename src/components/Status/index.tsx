@@ -45,7 +45,7 @@ export default function Status() {
         <History></History>
       ) : (
         <div className="block">
-          <Players customHeight="50vh"></Players>
+          <Players></Players>
         </div>
       )}
     </div>

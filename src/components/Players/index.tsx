@@ -1,13 +1,9 @@
 const generator = require("fake-names");
 
-interface PlayersProps {
-  customHeight: string;
-}
-
-export default function Players(props: PlayersProps) {
+export default function Players() {
   return (
     <>
-      <div className={`overflow-y-scroll rounded-lg h-[${props.customHeight}]`}>
+      <div className="overflow-y-scroll rounded-lg h-[50vh] lg:h-[85vh]">
         <table className="w-full table-fixed">
           <thead className="bg-[#333] text-white">
             <tr>
@@ -38,7 +34,7 @@ export default function Players(props: PlayersProps) {
             </tr>
           </thead>
           <tbody>
-            {Array(10)
+            {Array(40)
               .fill(null)
               .map((val, index) => (
                 <tr
