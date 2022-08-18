@@ -38,7 +38,7 @@ export default function Players(props: PlayersProps) {
             </tr>
           </thead>
           <tbody>
-            {Array(30)
+            {Array(20)
               .fill(null)
               .map((val, index) => (
                 <tr
